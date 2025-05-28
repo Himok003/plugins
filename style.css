@@ -1,0 +1,63 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.header {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+}
+
+.plugin-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plugin {
+  background: #222;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px #000;
+  text-align: left;
+}
+
+.plugin img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.plugin a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.stars {
+  color: gold;
+  margin: 5px 0;
+  font-size: 1.2em;
+}

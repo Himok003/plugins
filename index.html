@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FL Studio Plugīņu Bibliotēka</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">🎧 FL Studio Plagīņu Bibliotēka</div>
+  <div class="filters">
+    <input type="text" id="search" placeholder="Meklēt pēc nosaukuma..." />
+    <select id="sort">
+      <option value="expensive">Cena (dārga → lēta)</option>
+      <option value="cheap">Cena (lēta → dārga)</option>
+    </select>
+    <select id="typeFilter">
+      <option value="all">Visi veidi</option>
+    </select>
+  </div>
+  <div id="pluginList" class="plugin-list"></div>
+  <script src="script.js"></script>
+</body>
+</html>

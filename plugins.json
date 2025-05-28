@@ -1,0 +1,162 @@
+[
+  {
+    "name": "FabFilter Pro-Q 3",
+    "type": "Ekvalaizers",
+    "price": 149,
+    "url": "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in",
+    "image": "https://plugincrack.com/wp-content/uploads/2024/12/fabfilter-pro-q-3.webp",
+    "popularity": 5
+  },
+  {
+    "name": "Serum",
+    "type": "Sintezators",
+    "price": 189,
+    "url": "https://xferrecords.com/products/serum",
+    "image": "https://xferrecords.com/assets/products-large/serum2_promo-3a72f21c8e6c81f5c65d1949cf6cd846cc793ad00def69d9ca18f46614f98778.png",
+    "popularity": 5
+  },
+  {
+    "name": "Valhalla Room",
+    "type": "Reverbs",
+    "price": 50,
+    "url": "https://valhalladsp.com/shop/reverb/valhalla-room/",
+    "image": "https://val-media-offload.s3.amazonaws.com/wp-content/uploads/2023/11/20095528/ValhallaRoomBlueGUI_2_0_0.jpg",
+    "popularity": 4
+  },
+  {
+    "name": "Kontakt",
+    "type": "Paraugu atskaņotājs",
+    "price": 399,
+    "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-7/",
+    "image": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258098/production/plugin_descriptions/screenshot/33.jpg",
+    "popularity": 5
+  },
+  {
+    "name": "Massive",
+    "type": "Sintezators",
+    "price": 149,
+    "url": "https://www.native-instruments.com/en/products/komplete/synths/massive/",
+    "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/n/ni1wavetables-A3hv1PC37K6tLyNSEihcxOx4V3pSH0cG.jpg",
+    "popularity": 4
+  },
+  {
+    "name": "iZotope Ozone 10",
+    "type": "Masterings",
+    "price": 499,
+    "url": "https://www.izotope.com/en/products/ozone.html",
+    "image": "https://prosound.ixbt.com/news/2022/september/09/image5b.jpg",
+    "popularity": 5
+  },
+  {
+    "name": "Sylenth1",
+    "type": "Sintezators",
+    "price": 139,
+    "url": "https://www.lennardigital.com/sylenth1/",
+    "image": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1545405376/production/plugin_descriptions/screenshot/31.jpg",
+    "popularity": 4
+  },
+  {
+    "name": "RC-20 Retro Color",
+    "type": "Efekts",
+    "price": 99,
+    "url": "https://www.xlnaudio.com/products/effect/rc-20-retro-color",
+    "image": "https://assets.xlnaudio.com/products/content/fxfx0003/RC-20-Retro-Color-UI-Alpha.png",
+    "popularity": 5
+  },
+  {
+    "name": "Neutron 4",
+    "type": "Mixēšana",
+    "price": 299,
+    "url": "https://www.izotope.com/en/products/neutron.html",
+    "image": "https://www.izotope.com/storage-cms/images/2/4/4/4/234442-1-eng-GB/f1a95d80360d-neutron-4-assistant.png",
+    "popularity": 4
+  },
+  {
+    "name": "Soothe2",
+    "type": "Dinamikas apstrāde",
+    "price": 219,
+    "url": "https://oeksound.com/plugins/soothe2/",
+    "image": "https://oeksound.com/_astro/soothe2-screencap-nopreset-1.D1yT0Ejc.png",
+    "popularity": 5
+  },
+  {
+    "name": "Arturia Pigments",
+    "type": "Sintezators",
+    "price": 199,
+    "url": "https://www.arturia.com/products/software-instruments/pigments/overview",
+    "image": "https://medias.arturia.net/cdn-cgi/image/quality=80/images/products/pigments-6/gallery/random-view.jpg",
+    "popularity": 4
+  },
+  {
+    "name": "ShaperBox 3",
+    "type": "Efekts",
+    "price": 99,
+    "url": "https://www.cableguys.com/shaperbox.html",
+    "image": "https://www.cableguys.com/img/cg_offer/offercard_img_shaperbox.png",
+    "popularity": 4
+  },
+  {
+    "name": "Valhalla VintageVerb",
+    "type": "Reverbs",
+    "price": 50,
+    "url": "https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/",
+    "image": "https://valhalladsp.files.wordpress.com/2013/06/valhallavintageverb1970s.png",
+    "popularity": 5
+  },
+  {
+    "name": "Omnisphere",
+    "type": "Sintezators",
+    "price": 499,
+    "url": "https://www.spectrasonics.net/products/omnisphere/",
+    "image": "https://www.spectrasonics.net/products/omnisphere/images/omni-interface-tour/Omnisphere-2-Slide-01.jpeg",
+    "popularity": 5
+  },
+  {
+    "name": "Decapitator",
+    "type": "Piesātinājums",
+    "price": 199,
+    "url": "https://www.soundtoys.com/product/decapitator/",
+    "image": "https://www.soundtoys.com/wp-content/uploads/2015/06/Decapitator.png",
+    "popularity": 4
+  },
+  {
+    "name": "Nexus 4",
+    "type": "Sintezators",
+    "price": 250,
+    "url": "https://refx.com/nexus/",
+    "image": "https://cdn.pluginplug.net/product/1265_large@2x.jpg",
+    "popularity": 5
+  },
+  {
+    "name": "T-RackS 5",
+    "type": "Masterings",
+    "price": 149,
+    "url": "https://www.ikmultimedia.com/products/tr5suite/",
+    "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/T/TR5_01-W9gyJ.6.jKUV9JbRZuHJDsosJ0ePsgIH.jpg",
+    "popularity": 3
+  },
+  {
+    "name": "EchoBoy",
+    "type": "Delays",
+    "price": 199,
+    "url": "https://www.soundtoys.com/product/echoboy/",
+    "image": "https://www.soundtoys.com/wp-content/uploads/2015/06/echoboy.png",
+    "popularity": 4
+  },
+  {
+    "name": "Portal",
+    "type": "Efekts",
+    "price": 149,
+    "url": "https://output.com/products/portal",
+    "image": "https://theproaudiofiles.com/wp-content/uploads/2019/06/Output-PORTAL.jpg",
+    "popularity": 3
+  },
+  {
+    "name": "PanCake 2",
+    "type": "Panorāma",
+    "price": 0,
+    "url": "https://www.cableguys.com/pan-cake.html",
+    "image": "https://www.cableguys.com/img/pancake-2/pancake-2-screenshot.png?v=2",
+    "popularity": 4
+  }
+]
