@@ -1,3 +1,4 @@
+/* Pamatstili visam lapas saturam */
 body {
   background-color: #111;
   color: #fff;
@@ -7,15 +8,18 @@ body {
   margin: 0;
 }
 
+/* Galvenes stils */
 .header {
   font-size: 2em;
   margin-bottom: 20px;
 }
 
+/* Filtru bloka atstarpe */
 .filters {
   margin-bottom: 20px;
 }
 
+/* Stils meklēšanas laukiem un izvēlēm */
 input,
 select {
   padding: 8px;
@@ -26,6 +30,7 @@ select {
   color: #fff;
 }
 
+/* Plugīnu saraksts kā fleks kaste ar atstarpēm */
 .plugin-list {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +38,7 @@ select {
   gap: 20px;
 }
 
+/* Viena plugīna "kartiņa" */
 .plugin {
   background: #222;
   border-radius: 10px;
@@ -42,6 +48,7 @@ select {
   text-align: left;
 }
 
+/* Plugīna attēla stils */
 .plugin img {
   width: 150px;
   height: 150px;
@@ -51,11 +58,13 @@ select {
   margin: 0 auto 10px auto;
 }
 
+/* Saite uz ārējo resursu */
 .plugin a {
   color: #1e90ff;
   text-decoration: none;
 }
 
+/* Zvaigznes popularitātes rādīšanai */
 .stars {
   color: gold;
   margin: 5px 0;
