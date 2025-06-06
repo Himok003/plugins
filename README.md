@@ -1,58 +1,58 @@
-# Laika apstākļu lietotne
+# FL Studio Plagīņu Bibliotēka
 
 ## IEVADS
 
-Šis rīks veidots, lai lietotāji varētu ērti pārbaudīt dažādu pilsētu laika apstākļus. Rīks sniedz aktuālu informāciju par temperatūru, mitrumu, vēju, saullēktu un saulrietu, kā arī tuvāko stundu prognozi un interaktīvu karti ar nokrišņu slāni.
+FL Studio Plagīņu Bibliotēka ir tīmekļa lietotne, kas ļauj lietotājiem meklēt, filtrēt un apskatīt dažādus muzikālos plugīnus, kas ir saderīgi ar FL Studio. Lietotāji var atrast informāciju par plugīna veidu, cenu, popularitāti, kā arī piekļūt ārējiem resursiem, kur to iegūt.
+
 
 ## RĪKA PĀRSKATS
 
-Lietotne izmanto OpenWeatherMap API, lai iegūtu aktuālus laikapstākļu datus un prognozes. Papildus integrēta Leaflet.js bibliotēka, lai lietotājam parādītu pilsētas atrašanās vietu un nokrišņu datus kartē. Lietotāja meklējumi tiek saglabāti lokāli ar `localStorage`.
+Šī lietotne darbojas, izmantojot vietējo `plugins.json` datni, kurā glabājas informācija par dažādiem plagīniem (nosaukums, veids, cena, popularitāte u.c.). Lietotne nodrošina lietotājam ērtu saskarni plagīnu meklēšanai un kārtošanai.
 
 ### FUNKCIONALITĀTE
 
-- Pilsētas meklēšana pēc nosaukuma
-- Minimālā, maksimālā un "sajūtu" temperatūra
-- Mitrums, vēja ātrums, saullēkts, saulriets, laika zona
-- Tuvāko stundu prognoze (5 intervāli)
-- Tumšais un gaišais režīms (ar saglabāšanu pārlūkā)
-- Interaktīva lietus radara karte
-- Pilsētu saraksts ar dzēšanas iespēju
+- Plugīnu meklēšana pēc nosaukuma
+- Kārtošana pēc cenas (lēta → dārga un otrādi)
+- Filtrēšana pēc plugīna veida (sintezators, efekts utt.)
+- Zvaigžņu reitings pēc popularitātes
+- Saite uz ārējo lapu, kur var uzzināt vairāk vai iegādāties plagīnu
+- Dinamiska satura ielāde no `plugins.json`
 
 ## FAILU STRUKTŪRA
 ```
-Laikapstākļu_lietotne/  
-├── index.html 
-├── style.css 
-├── script.js 
-├── README.md 
+plugins/  
+├── index.html      # HTML struktūra un meklēšanas forma
+├── style.css       # Lietotnes vizuālais noformējums (tumšais režīms)
+├── script.js       # Datu ielāde, filtrēšana un notikumu apstrāde
+├── plugins.json    # Plagīnu saraksts (nosaukumi, veidi, cenas u.c.)
 ```
 
-- `index.html` ievāc lietotāja ievadīto informāciju (pilsētas meklēšana).
-- `style.css` satur dizainu un izskatu, ieskaitot tumšo/gaišo režīmu.
-- `script.js` apstrādā ievades, veic API pieprasījumus, attēlo rezultātus un karti.
+- `index.html` satur saskarni ar filtru laukiem un konteineru rezultātu attēlošanai.
+- `style.css` nodrošina tumšo krāsu shēmu, kā arī kartiņu izkārtojumu plagīniem.
+- `script.js` apstrādā meklēšanu, kārtošanu un filtrēšanu, izmantojot JavaScript.
+- `plugins.json` ir dati par pieejamajiem plugīniem (lietotāja pusē).
 
 
 ## IESPĒJAMIE UZLABOJUMI
 
-- Papildu valodas izvēle saskarnē
-- Vairāku dienu prognoze (ne tikai tuvākās stundas)
-- Laika apstākļu vizualizācijas grafikos
-- Pilsētas izvēle tieši kartē (klikšķinot)
+- Iespēja pievienot plagīnu vēlmju sarakstam
+- Iespēja vērtēt plagīnus no lietotāju puses
+- Kategoriju (tagu) balstīts filtrs ar vairākiem izvēles kritērijiem
+- Valodas izvēle (piemēram, angļu un latviešu)
 
 ## ZINĀMIE DEFEKTI
 
-- OpenWeatherMap API bezmaksas piekļuvei ir pieprasījumu limits
-- API dati nav vienmēr pieejami ļoti mazām vai kļūdaini ievadītām pilsētām
-- Prognozes apraksti nav lokalizēti uz latviešu valodu
+- `plugins.json` dati netiek dinamiski atjaunināti (nav piesaistes ar DB)
+- Nav validācijas ārējo saišu derīgumam vai attēlu esamībai
 
 ## RESURSI
 
-Izmantotie ārējie rīki un API:
-- [OpenWeatherMap](https://openweathermap.org/api) – laikapstākļi, prognozes, koordinātas
-- [Leaflet.js](https://leafletjs.com/) – karšu vizualizācija
-- [Font Awesome](https://fontawesome.com/) – ikonas
-- [Ionicons](https://ionic.io/ionicons) – ikonas
+Izmantotie ārējie rīki:
+- [PluginDeals](https://plugindeals.net/top-100-most-popular-plugins/) – populāru plagīņu saraksts
+
 
 ## AUTORI
 
-2025: Vladimirs Jankovičs
+© 2025 Vladislavs Fiļipovs, Alekss Krastiņš, Davids Gulijevs
+
+
