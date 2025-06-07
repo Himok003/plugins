@@ -2,7 +2,7 @@
 
 ## IEVADS
 
-FL Studio Plagīņu Bibliotēka ir tīmekļa lietotne, kas ļauj lietotājiem meklēt, filtrēt un apskatīt dažādus muzikālos plugīnus, kas ir saderīgi ar FL Studio. Lietotāji var atrast informāciju par plugīna veidu, cenu, popularitāti, kā arī piekļūt ārējiem resursiem, kur to iegūt.
+FL Studio Plagīņu Bibliotēka ir tīmekļa lietotne, kas ļauj lietotājiem meklēt, filtrēt un apskatīt dažādus muzikālos plagīnus, kas ir saderīgi ar FL Studio. Lietotāji var atrast informāciju par plagīna veidu, cenu, popularitāti, kā arī piekļūt ārējiem resursiem, kur to iegūt.
 
 
 ## RĪKA PĀRSKATS
