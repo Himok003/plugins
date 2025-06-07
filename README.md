@@ -11,12 +11,12 @@ FL Studio Plagīņu Bibliotēka ir tīmekļa lietotne, kas ļauj lietotājiem me
 
 ### FUNKCIONALITĀTE
 
-- Plugīnu meklēšana pēc nosaukuma
-- Kārtošana pēc cenas (lēta → dārga un otrādi)
-- Filtrēšana pēc plugīna veida (sintezators, efekts utt.)
-- Zvaigžņu reitings pēc popularitātes
-- Saite uz ārējo lapu, kur var uzzināt vairāk vai iegādāties plagīnu
-- Dinamiska satura ielāde no `plugins.json`
+- Plugīnu meklēšana pēc nosaukuma;
+- Kārtošana pēc cenas (lēta → dārga un otrādi);
+- Filtrēšana pēc plugīna veida (sintezators, efekts utt.);
+- Zvaigžņu reitings pēc popularitātes;
+- Saite uz ārējo lapu, kur var uzzināt vairāk vai iegādāties plagīnu;
+- Dinamiska satura ielāde no `plugins.json`.
 
 ## FAILU STRUKTŪRA
 ```
@@ -35,20 +35,19 @@ plugins/
 
 ## IESPĒJAMIE UZLABOJUMI
 
-- Iespēja pievienot plagīnu vēlmju sarakstam
-- Iespēja vērtēt plagīnus no lietotāju puses
-- Kategoriju (tagu) balstīts filtrs ar vairākiem izvēles kritērijiem
-- Valodas izvēle (piemēram, angļu un latviešu)
+- Iespēja pievienot plagīnu vēlmju sarakstam;
+- Iespēja vērtēt plagīnus no lietotāju puses;
+- Kategoriju (tagu) balstīts filtrs ar vairākiem izvēles kritērijiem;
+- Valodas izvēle (piemēram, angļu un latviešu).
 
 ## ZINĀMIE DEFEKTI
 
-- `plugins.json` dati netiek dinamiski atjaunināti (nav piesaistes ar DB)
-- Nav validācijas ārējo saišu derīgumam vai attēlu esamībai
+- Attēlu attēlošana, izmantojot attēlu saites.
 
 ## RESURSI
 
 Izmantotie ārējie rīki:
-- [PluginDeals](https://plugindeals.net/top-100-most-popular-plugins/) – populāru plagīņu saraksts
+- [PluginDeals](https://plugindeals.net/top-100-most-popular-plugins/) – populāru plagīņu saraksts.
 
 
 ## AUTORI
